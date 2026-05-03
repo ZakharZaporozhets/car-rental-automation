@@ -78,7 +78,7 @@ npm run test:report
 
 ## Test cases covered
 
-### UI – Booking.com Car Rental Search Bar
+### UI – Booking.com Car Rental Search
 
 | ID | Description | Expected validation message | Tag |
 |----|--------------|-----------------------------|-----|
