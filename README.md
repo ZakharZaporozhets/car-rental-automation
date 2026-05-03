@@ -82,15 +82,15 @@ npm run test:report
 
 | ID | Description | Expected validation message | Tag |
 |----|--------------|-----------------------------|-----|
-| TC-01 | Search results displayed for valid input (New York, +1/+3 days) | — | — |
-| TC-02 | Validation: Drop-off < 1 hour after Pick-up | "There must be at least one hour between pick up and drop off" | @smoke |
-| TC-03 | Validation: Driver age field left empty | "Provide the driver's age" | @smoke |
-| TC-04 | Validation: Pick-up location not provided | "Please provide a pick-up location" | @smoke |
-| TC-05 | No cars shown for rental period of 365 days | — | — |
-| TC-06 | Navigate to "View deal" page from results | — | — |
-| TC-07 | "Drop off at different location" checkbox reveals the drop-off field | — | — |
-| TC-08 | Validation: Invalid/unresolved drop-off location | "Please provide a drop-off location" | — |
-| TC-09 | Pick-up date persists in the results page URL after search | — | — |
+| TC-01 | Search results displayed for valid input | — | — |
+| TC-02 | Validation when Drop-off time is less than 1 hour after Pick-up | "There must be at least one hour between pick up and drop off" | @smoke |
+| TC-03 | Validation when driver age is not provided | "Provide the driver's age" | @smoke |
+| TC-04 | Validation when Pick-up location is not provided | "Please provide a pick-up location" | @smoke |
+| TC-05 | No cars available for rental period > 1 year | — | — |
+| TC-06 | Navigate to "View deal" page from search results | — | — |
+| TC-07 | "Drop off at different location" reveals drop-off field | — | — |
+| TC-08 | Validation when invalid Drop-off location is set | "Please provide a drop-off location" | — |
+| TC-09 | Date/time values persist after search on results page | — | — |
 
 ### API – api.restful-api.dev/objects
 
